@@ -7,6 +7,6 @@
     <div class="image relative overflow-hidden rounded-md truncate aspect-[2/3] ">
         <img src={anime.image} alt="" class="w-full h-full object-cover opacity-90">
     </div>
-    <h1 class="{`${styles.triTitle}`}">{anime.title.romaji?anime.title.romaji: anime.title.english }</h1>
+    <h1 class="{`${styles.triTitle}`}">{anime.title.english?anime.title.english: anime.title.romaji}</h1>
     
 </div></a>
