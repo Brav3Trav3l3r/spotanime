@@ -28,13 +28,9 @@
 	}
 </script>
 
-<div class="absolute bottom-0 inset-x-0 aspect-video bg-neutral-800">
+<div class="absolute bottom-0 inset-x-0 aspect-video truncate bg-neutral-800">
 	<vds-media class=" h-full w-full object-contain">
-        
-		<vds-hls 
-        class="h-full w-full "
-			controls		
-		>
+		<vds-hls class="h-full w-full " controls>
 			<video class="" controls src={url} preload="none" />
 		</vds-hls>
 	</vds-media>

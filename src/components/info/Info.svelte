@@ -10,7 +10,7 @@
             <div class="image aspect-[2/3] grow-0 w-40  rounded-md truncate shrink-0">
                 <img src={info.image} alt="" class="h-full w-full ovject-cover brightness-95 " />
             </div>
-            <div class="info flex flex-col space-y-4 item justify-end max-w-80  shrink overflow-hidden">
+            <div class="info flex flex-col space-y-3 item justify-end max-w-80 shrink overflow-hidden">
                 <div class="group1 flex flex-col space-y-2">
                     <h1 class="text-xl font-semibold">
                         {info.title.english ? info.title.english : info.title.romaji}

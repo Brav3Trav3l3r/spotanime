@@ -11,12 +11,12 @@
 		<table class="w-full text-left text-gray-50 ">
 			<tbody>
 				{#each info.episodes.slice(0, 5) as ep}
-					<tr class=" hover:bg-zinc-800 group border-separate rounded-lg" on:click={()=> currentId.set(ep.id)}>
+					<tr class=" hover:bg-zinc-800 group border-separate rounded-lg cursor-pointer" on:click={()=> currentId.set(ep.id)}>
 						<th scope="row" class="pl-6 py-2 font-medium text-gray-400 whitespace-nowrap">
 							{ep.number}
 						</th>
 						<td class="px-2 py-2">
-							<img src={ep.image} alt="Image 1" class="w-24 aspect-video rounded-md" />
+							<img src={ep.image} alt="poster" class="w-24 aspect-video rounded" />
 						</td>
 						<td class="px-2 py-2">
 							{ep.title}

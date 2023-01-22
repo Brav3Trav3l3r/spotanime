@@ -1,4 +1,4 @@
-export async function load() {
+export async function load({fetch}) {
    
     const fdata1 = async()=>{
         const res = await fetch('https://api.consumet.org/meta/anilist/trending')

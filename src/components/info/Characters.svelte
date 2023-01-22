@@ -2,10 +2,11 @@
 	export let info;
 	let characters;
 	$: characters = info.characters;
+	import {styles} from '../../index'
 </script>
 
 <div class="related mx-2 ">
-	<h1 class="text-xl text-zinc-400">Characters</h1>
+	<h1 class="{styles.secTitle}">Characters</h1>
 	<div class="cards mt-8 flex flex-nowrap overflow-x-auto gap-4 scrollbar-hide">
 
 			{#each characters as person}
