@@ -11,8 +11,8 @@
 
 			{#each characters as person}
 				<div class="card w-28 shrink-0 text-center space-y-4">
-					<div class="image rounded-full truncate aspect-square hover:scale-95 transtion duration-200 hover:brightness-75">
-						<img src={person.image} alt="">
+					<div class="image rounded-full truncate aspect-square  transtion duration-200 hover:brightness-90">
+						<img src={person.image} alt="" class="hover:scale-110  transtion duration-200">
 					</div>
 					<div class="name"><h1 class="text-sm text-zinc-300"> {person.name.userPreferred}</h1></div>
 				</div>

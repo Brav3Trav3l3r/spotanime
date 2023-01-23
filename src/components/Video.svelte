@@ -1,9 +1,9 @@
 <script>
-	import { currentId } from '../store/store';
+	import { currentEp } from '../store/store';
 	let url;
 
-	$: if ($currentId !== null) {
-		getUrl($currentId).then((result) => {
+	$: if ($currentEp !== null) {
+		getUrl($currentEp.id).then((result) => {
 			url = result;
 		});
 	}

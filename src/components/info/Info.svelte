@@ -7,8 +7,8 @@
     <h1 class={styles.secTitle}>Info</h1>
     <div class="main ">
         <div class="flex gap-4 ">
-            <div class="image aspect-[2/3] grow-0 w-40  rounded-md truncate shrink-0">
-                <img src={info.image} alt="" class="h-full w-full ovject-cover brightness-95 " />
+            <div class="image aspect-[2/3] grow-0 w-40  truncate shrink-0">
+                <img src={info.image} alt="" class="h-full w-full ovject-contain brightness-95 " />
             </div>
             <div class="info flex flex-col space-y-3 item justify-end max-w-80 shrink overflow-hidden">
                 <div class="group1 flex flex-col space-y-2">
@@ -34,13 +34,13 @@
                 </div>
                 <div class="group3 flex gap-8">
                     <div class="popular flex gap-2 items-center">
-                        <div class="icon w-fit font-bold text-xl flex text-yellow-400">
-                            <iconify-icon icon="lucide:arrow-up-down" />
+                        <div class="icon w-fit font-bold text-lg flex text-yellow-400">
+                            <iconify-icon icon="ph:thumbs-up-bold" />
                         </div>
                         <h1 class="text-xl font-semibold">{info.popularity}</h1>
                     </div>
                     <div class="rating flex gap-2 items-center ">
-                        <div class="icon w-fit font-bold text-xl text-blue-400 flex ">
+                        <div class="icon w-fit font-bold text-lg text-blue-400 flex ">
                             <iconify-icon icon="simple-icons:anilist" />
                         </div>
                         <h1 class="text-xl  font-semibold">{info.rating}%</h1>
@@ -49,7 +49,7 @@
             </div>
         </div>
         <div class="discription mt-6 ">
-            <p class="line-clamp-4 text-sm text-zinc-400">{@html info.description}</p>
+            <p class="line-clamp-6 text-sm text-zinc-400">{@html info.description}</p>
         </div>
     </div>
 </div>

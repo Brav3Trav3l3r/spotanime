@@ -1,6 +1,6 @@
 export const styles = {
     navIcons : 'text-xl md:text-2xl text-zinc-400 cursor-pointer hover:bg-zinc-800/40 flex p-2 ',
-    navTitle: 'font-bold text-zinc-300/90 text-sm',
+    navTitle: ' text-zinc-300 group-hover:text-white text-sm',
     primeTitle: 'heading text-4xl xl:text-6xl md:text-5xl  tracking-wide text-purple-50 border-b border-purple-50/50 pb-6 ',
     secTitle:  'text-xl font-bold md:text-xl text-white ',
     triTitle: 'text-zinc-200 text-sm  line-clamp-1',

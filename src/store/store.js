@@ -1,4 +1,4 @@
 import { writable } from "svelte/store";
 
-export let currentId = writable(null)
-export let gradientClass = writable(null)
+export let currentEp = writable(null)
+export let currentAnime = writable(null)
